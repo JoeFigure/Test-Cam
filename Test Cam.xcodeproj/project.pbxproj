@@ -14,6 +14,7 @@
 		69BE202F1BD3D18C001DA950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BE202D1BD3D18C001DA950 /* LaunchScreen.storyboard */; };
 		69BE203A1BD3D18C001DA950 /* Test_CamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE20391BD3D18C001DA950 /* Test_CamTests.swift */; };
 		69BE20451BD3D18C001DA950 /* Test_CamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE20441BD3D18C001DA950 /* Test_CamUITests.swift */; };
+		69BE20551BD41291001DA950 /* AVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE20541BD41291001DA950 /* AVViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		69BE20401BD3D18C001DA950 /* Test CamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test CamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69BE20441BD3D18C001DA950 /* Test_CamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_CamUITests.swift; sourceTree = "<group>"; };
 		69BE20461BD3D18C001DA950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69BE20541BD41291001DA950 /* AVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,9 @@
 			children = (
 				69BE20241BD3D18C001DA950 /* AppDelegate.swift */,
 				69BE20261BD3D18C001DA950 /* ViewController.swift */,
-				69BE20281BD3D18C001DA950 /* Main.storyboard */,
+				69BE20541BD41291001DA950 /* AVViewController.swift */,
 				69BE202B1BD3D18C001DA950 /* Assets.xcassets */,
+				69BE20281BD3D18C001DA950 /* Main.storyboard */,
 				69BE202D1BD3D18C001DA950 /* LaunchScreen.storyboard */,
 				69BE20301BD3D18C001DA950 /* Info.plist */,
 			);
@@ -260,6 +263,7 @@
 			files = (
 				69BE20271BD3D18C001DA950 /* ViewController.swift in Sources */,
 				69BE20251BD3D18C001DA950 /* AppDelegate.swift in Sources */,
+				69BE20551BD41291001DA950 /* AVViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				69BE204B1BD3D18C001DA950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69BE204C1BD3D18C001DA950 /* Build configuration list for PBXNativeTarget "Test CamTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				69BE204E1BD3D18C001DA950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69BE204F1BD3D18C001DA950 /* Build configuration list for PBXNativeTarget "Test CamUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				69BE20511BD3D18C001DA950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
