@@ -20,6 +20,8 @@ class AVViewController: UIViewController {
     
     var captureDevice : AVCaptureDevice?
     
+    //let mongView = myView(frame:CGRectMake(21.0, 12.0, 20.0, 20.0))
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +47,8 @@ class AVViewController: UIViewController {
         if captureDevice != nil {
             beginSession()
         }
+        
+        //self.view.addSubview(mongView)
     }
     
     func beginSession() {
@@ -67,4 +71,10 @@ class AVViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    @IBAction func TakePhoto(sender: UIButton) {
+        //AVCaptureStillImageOutput
+    }
+    
 }
